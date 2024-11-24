@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		671A46EC2A2612780009D067 /* ObjcEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 671A46EB2A2612780009D067 /* ObjcEx.m */; };
+		6739AE9929A4E1A90051ED2A /* EnvelopeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6739AE9829A4E1A90051ED2A /* EnvelopeController.swift */; };
+		67A2E1FA29A385D000F3F7E8 /* SignalGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A2E1F929A385D000F3F7E8 /* SignalGraphView.swift */; };
+		67A2E20B29A3867D00F3F7E8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A2E20729A3867D00F3F7E8 /* MainViewController.swift */; };
+		67A2E20C29A3867D00F3F7E8 /* SignalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A2E20829A3867D00F3F7E8 /* SignalViewController.swift */; };
+		67A2E20D29A3867D00F3F7E8 /* DeviceInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A2E20929A3867D00F3F7E8 /* DeviceInfoViewController.swift */; };
+		67A2E20E29A3867D00F3F7E8 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A2E20A29A3867D00F3F7E8 /* SearchViewController.swift */; };
+		67A2E21329A3A55E00F3F7E8 /* CallibriController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A2E21229A3A55E00F3F7E8 /* CallibriController.swift */; };
+		67E377D5299FBD0A00F889D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E377D4299FBD0A00F889D4 /* AppDelegate.swift */; };
+		67E377D7299FBD0A00F889D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E377D6299FBD0A00F889D4 /* SceneDelegate.swift */; };
+		67E377D9299FBD0A00F889D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E377D8299FBD0A00F889D4 /* ViewController.swift */; };
+		67E377DC299FBD0A00F889D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67E377DA299FBD0A00F889D4 /* Main.storyboard */; };
+		67E377DE299FBD0B00F889D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67E377DD299FBD0B00F889D4 /* Assets.xcassets */; };
+		67FA0A2324451361547F99D8 /* Pods_CallibriDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C73C852F1096DFEE21DFCBB /* Pods_CallibriDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C73C852F1096DFEE21DFCBB /* Pods_CallibriDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CallibriDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		671A46E92A2612780009D067 /* CallibriDemo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CallibriDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		671A46EA2A2612780009D067 /* ObjcEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjcEx.h; sourceTree = "<group>"; };
+		671A46EB2A2612780009D067 /* ObjcEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjcEx.m; sourceTree = "<group>"; };
+		6739AE9829A4E1A90051ED2A /* EnvelopeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvelopeController.swift; sourceTree = "<group>"; };
+		67A2E1F229A3836200F3F7E8 /* CorePlot.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CorePlot.framework; path = frameworks/CorePlot.framework; sourceTree = "<group>"; };
+		67A2E1F929A385D000F3F7E8 /* SignalGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignalGraphView.swift; sourceTree = "<group>"; };
+		67A2E20729A3867D00F3F7E8 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		67A2E20829A3867D00F3F7E8 /* SignalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignalViewController.swift; sourceTree = "<group>"; };
+		67A2E20929A3867D00F3F7E8 /* DeviceInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceInfoViewController.swift; sourceTree = "<group>"; };
+		67A2E20A29A3867D00F3F7E8 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		67A2E21229A3A55E00F3F7E8 /* CallibriController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallibriController.swift; sourceTree = "<group>"; };
+		67E377D1299FBD0A00F889D4 /* CallibriDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CallibriDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67E377D4299FBD0A00F889D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67E377D6299FBD0A00F889D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		67E377D8299FBD0A00F889D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67E377DB299FBD0A00F889D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67E377DD299FBD0B00F889D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67E377E0299FBD0B00F889D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67E377E2299FBD0B00F889D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAFAEC7BAB1BE7EA73296DE4 /* Pods-CallibriDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CallibriDemo.debug.xcconfig"; path = "Target Support Files/Pods-CallibriDemo/Pods-CallibriDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		ED6E41A7B1ED3B4971B681FD /* Pods-CallibriDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CallibriDemo.release.xcconfig"; path = "Target Support Files/Pods-CallibriDemo/Pods-CallibriDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		46E914D32CF26CBD005BE5C9 /* Flows */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Flows; sourceTree = "<group>"; };
+		46E915142CF27713005BE5C9 /* Extension */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Extension; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67E377CE299FBD0A00F889D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67FA0A2324451361547F99D8 /* Pods_CallibriDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11ABAFCCAC4B772407500163 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EAFAEC7BAB1BE7EA73296DE4 /* Pods-CallibriDemo.debug.xcconfig */,
+				ED6E41A7B1ED3B4971B681FD /* Pods-CallibriDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		671A46E72A2612530009D067 /* Exceptions */ = {
+			isa = PBXGroup;
+			children = (
+				671A46E92A2612780009D067 /* CallibriDemo-Bridging-Header.h */,
+				671A46EA2A2612780009D067 /* ObjcEx.h */,
+				671A46EB2A2612780009D067 /* ObjcEx.m */,
+			);
+			path = Exceptions;
+			sourceTree = "<group>";
+		};
+		67A2E1F129A3836100F3F7E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67A2E1F229A3836200F3F7E8 /* CorePlot.framework */,
+				3C73C852F1096DFEE21DFCBB /* Pods_CallibriDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67A2E20529A3863700F3F7E8 /* NeuroImpl */ = {
+			isa = PBXGroup;
+			children = (
+				67A2E21229A3A55E00F3F7E8 /* CallibriController.swift */,
+			);
+			path = NeuroImpl;
+			sourceTree = "<group>";
+		};
+		67A2E20629A3865400F3F7E8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				67A2E20929A3867D00F3F7E8 /* DeviceInfoViewController.swift */,
+				67A2E20729A3867D00F3F7E8 /* MainViewController.swift */,
+				67A2E20A29A3867D00F3F7E8 /* SearchViewController.swift */,
+				67A2E20829A3867D00F3F7E8 /* SignalViewController.swift */,
+				6739AE9829A4E1A90051ED2A /* EnvelopeController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		67E377C8299FBD0A00F889D4 = {
+			isa = PBXGroup;
+			children = (
+				67E377D3299FBD0A00F889D4 /* CallibriDemo */,
+				67E377D2299FBD0A00F889D4 /* Products */,
+				67A2E1F129A3836100F3F7E8 /* Frameworks */,
+				11ABAFCCAC4B772407500163 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		67E377D2299FBD0A00F889D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67E377D1299FBD0A00F889D4 /* CallibriDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67E377D3299FBD0A00F889D4 /* CallibriDemo */ = {
+			isa = PBXGroup;
+			children = (
+				46E915142CF27713005BE5C9 /* Extension */,
+				46E914D32CF26CBD005BE5C9 /* Flows */,
+				671A46E72A2612530009D067 /* Exceptions */,
+				67A2E20629A3865400F3F7E8 /* Controllers */,
+				67A2E20529A3863700F3F7E8 /* NeuroImpl */,
+				67A2E1F929A385D000F3F7E8 /* SignalGraphView.swift */,
+				67E377D4299FBD0A00F889D4 /* AppDelegate.swift */,
+				67E377D6299FBD0A00F889D4 /* SceneDelegate.swift */,
+				67E377D8299FBD0A00F889D4 /* ViewController.swift */,
+				67E377DA299FBD0A00F889D4 /* Main.storyboard */,
+				67E377DD299FBD0B00F889D4 /* Assets.xcassets */,
+				67E377DF299FBD0B00F889D4 /* LaunchScreen.storyboard */,
+				67E377E2299FBD0B00F889D4 /* Info.plist */,
+			);
+			path = CallibriDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67E377D0299FBD0A00F889D4 /* CallibriDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67E377E5299FBD0B00F889D4 /* Build configuration list for PBXNativeTarget "CallibriDemo" */;
+			buildPhases = (
+				D9BD0E422D1DCFEC5CF48D97 /* [CP] Check Pods Manifest.lock */,
+				67E377CD299FBD0A00F889D4 /* Sources */,
+				67E377CE299FBD0A00F889D4 /* Frameworks */,
+				67E377CF299FBD0A00F889D4 /* Resources */,
+				EEEE7D1751B789FB6E041BE8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				46E914D32CF26CBD005BE5C9 /* Flows */,
+				46E915142CF27713005BE5C9 /* Extension */,
+			);
+			name = CallibriDemo;
+			productName = CallibriDemo;
+			productReference = 67E377D1299FBD0A00F889D4 /* CallibriDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67E377C9299FBD0A00F889D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					67E377D0299FBD0A00F889D4 = {
+						CreatedOnToolsVersion = 14.0.1;
+						LastSwiftMigration = 1430;
+					};
+				};
+			};
+			buildConfigurationList = 67E377CC299FBD0A00F889D4 /* Build configuration list for PBXProject "CallibriDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67E377C8299FBD0A00F889D4;
+			productRefGroup = 67E377D2299FBD0A00F889D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67E377D0299FBD0A00F889D4 /* CallibriDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67E377CF299FBD0A00F889D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E377DE299FBD0B00F889D4 /* Assets.xcassets in Resources */,
+				67E377DC299FBD0A00F889D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D9BD0E422D1DCFEC5CF48D97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CallibriDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEEE7D1751B789FB6E041BE8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CallibriDemo/Pods-CallibriDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CallibriDemo/Pods-CallibriDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CallibriDemo/Pods-CallibriDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67E377CD299FBD0A00F889D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A2E20C29A3867D00F3F7E8 /* SignalViewController.swift in Sources */,
+				671A46EC2A2612780009D067 /* ObjcEx.m in Sources */,
+				67E377D9299FBD0A00F889D4 /* ViewController.swift in Sources */,
+				67E377D5299FBD0A00F889D4 /* AppDelegate.swift in Sources */,
+				6739AE9929A4E1A90051ED2A /* EnvelopeController.swift in Sources */,
+				67A2E20E29A3867D00F3F7E8 /* SearchViewController.swift in Sources */,
+				67A2E20D29A3867D00F3F7E8 /* DeviceInfoViewController.swift in Sources */,
+				67E377D7299FBD0A00F889D4 /* SceneDelegate.swift in Sources */,
+				67A2E1FA29A385D000F3F7E8 /* SignalGraphView.swift in Sources */,
+				67A2E21329A3A55E00F3F7E8 /* CallibriController.swift in Sources */,
+				67A2E20B29A3867D00F3F7E8 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		67E377DA299FBD0A00F889D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67E377DB299FBD0A00F889D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67E377DF299FBD0B00F889D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67E377E0299FBD0B00F889D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67E377E3299FBD0B00F889D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67E377E4299FBD0B00F889D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67E377E6299FBD0B00F889D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAFAEC7BAB1BE7EA73296DE4 /* Pods-CallibriDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73AGDSA9QN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/frameworks",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CallibriDemo/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "For search devices";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neurotech.callibridemo.CallibriDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CallibriDemo/Exceptions/CallibriDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67E377E7299FBD0B00F889D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED6E41A7B1ED3B4971B681FD /* Pods-CallibriDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73AGDSA9QN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/frameworks",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CallibriDemo/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "For search devices";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neurotech.callibridemo.CallibriDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CallibriDemo/Exceptions/CallibriDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67E377CC299FBD0A00F889D4 /* Build configuration list for PBXProject "CallibriDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67E377E3299FBD0B00F889D4 /* Debug */,
+				67E377E4299FBD0B00F889D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67E377E5299FBD0B00F889D4 /* Build configuration list for PBXNativeTarget "CallibriDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67E377E6299FBD0B00F889D4 /* Debug */,
+				67E377E7299FBD0B00F889D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67E377C9299FBD0A00F889D4 /* Project object */;
+}

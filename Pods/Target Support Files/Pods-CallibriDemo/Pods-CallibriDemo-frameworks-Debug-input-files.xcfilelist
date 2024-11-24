@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-CallibriDemo/Pods-CallibriDemo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CorePlot/CorePlot.framework
+${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/neurosdk2/neurosdk2.framework/neurosdk2

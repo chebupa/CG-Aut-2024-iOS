@@ -1,0 +1,24 @@
+PODS:
+  - CorePlot (2.3)
+  - DropDown (2.3.4)
+  - neurosdk2 (1.0.6.2)
+
+DEPENDENCIES:
+  - CorePlot (= 2.3)
+  - DropDown (= 2.3.4)
+  - neurosdk2 (~> 1.0.6.2)
+
+SPEC REPOS:
+  trunk:
+    - CorePlot
+    - DropDown
+    - neurosdk2
+
+SPEC CHECKSUMS:
+  CorePlot: 6bfe6d30d215beec3cfd18ee43e434620119bc1e
+  DropDown: f225ff0fd09dde064d17aa03db7e4d4e4ff40b6b
+  neurosdk2: 8c6ce8f9a287f82271513bab9dabe4f724e97b6c
+
+PODFILE CHECKSUM: 7f2f2ea4322c0449de1f042c358b998757b16f0f
+
+COCOAPODS: 1.14.3

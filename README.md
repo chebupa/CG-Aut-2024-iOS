@@ -1,2 +1,3 @@
 # CG-Aut-2024-iOS
- iOS app
+
+iOS app for NeuroTech. Displaying ECG data from Calibri sensor
